@@ -6,7 +6,7 @@ metadata:
     app: nodejsapp
 spec:
   ports:
-  - port: 3000
+  - port: 80
     name: nodejsapp-service
     targetPort: 3000
   type: ClusterIP
